@@ -23,23 +23,19 @@
 require_once('assets/inc/header.php');
 ?>
     <section class="content">
-        <div class="row">
-            <div class="col-8">
-                <div class="content__main">
-                    <h1>SavePoint&trade;</h1>
-                </div>
-                <!-- /.content__main -->
-            </div>
-            <!-- /.col-8 -->
-            <div class="col-4">
-                <div class="content__sidebar">
-                    <h2>Sidebar</h2>
-                </div>
-                <!-- /.content__sidebar -->
-            </div>
-            <!-- /.col-4 -->
-        </div>
-        <!-- /.row -->
+        <div class="content__main">
+            <h1>Affordable Professional Websites</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi totam quas harum quae reiciendis aut, cum omnis incidunt quam voluptatibus.</p>
+        </div><!-- /.content__main -->
+
+        <div class="newsletter">
+            <h1>Subscrive to our newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter email..."/>
+                <button type="submit" class="button-1">Subscrive</button>
+            </form><!-- form -->
+        </div><!--  newsletter -->
     </section>
+
     <!-- /.content -->
 <?php require_once('assets/inc/footer.php') ?>
